@@ -3,6 +3,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
+//Nashia Amourdon
 // PLAY SCENE
 var scenes;
 (function (scenes) {
@@ -24,8 +25,10 @@ var scenes;
             this._rollBtn = new objects.Button("RollBtn", config.Screen.CENTER_X, config.Screen.CENTER_Y + 180);
             this.addChild(this._rollBtn);
             this._rollBtn.on("click", this._rollBtnClick, this);
-            this._diceLeft = new objects.Label(this.diceNumber, toString(), "18px lucinda", "#022F49", 274, 315);
-            this.addChild(this._diceLeft);
+            //this._diceLeft= new objects.Label(this.diceNumber.toString(),"18px lucinda", "#022F49", 274,280);
+            //this.addChild(this._diceLeft);   
+            //this._diceRight= new objects.Label(this.diceNumber.toString(),"18px lucinda", "#022F49", 274,280);
+            //this.addChild(this._diceRight);   
             this._initializeBitmapArray();
             // add this scene to the global stage container
             stage.addChild(this);
@@ -72,7 +75,7 @@ var scenes;
         };
         Play.prototype._determineNumber = function () {
             if (this._dice1 == 1) {
-                this._diceRight = 1;
+                this.diceNumber = 1;
             }
             if (this._dice2 == 1) {
                 this.diceNumber = 2;

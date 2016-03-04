@@ -1,3 +1,4 @@
+//Nashia Amourdon
 /// <reference path = "_reference.ts" />
 // global variables
 var assets;

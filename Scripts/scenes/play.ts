@@ -32,12 +32,12 @@ module scenes {
             this.addChild(this._rollBtn);
             this._rollBtn.on("click", this._rollBtnClick,this);
             
-            this._diceLeft= new objects.Label(this.diceNumber.toString(),"18px lucinda", "#022F49", 274,280);
-             this.addChild(this._diceLeft);   
+            //this._diceLeft= new objects.Label(this.diceNumber.toString(),"18px lucinda", "#022F49", 274,280);
+             //this.addChild(this._diceLeft);   
             
             
-            this._diceRight= new objects.Label(this.diceNumber.toString(),"18px lucinda", "#022F49", 274,280);
-             this.addChild(this._diceRight);   
+            //this._diceRight= new objects.Label(this.diceNumber.toString(),"18px lucinda", "#022F49", 274,280);
+             //this.addChild(this._diceRight);   
             this._initializeBitmapArray();
             // add this scene to the global stage container
            
