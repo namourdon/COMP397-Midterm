@@ -17,7 +17,14 @@ var end: scenes.End;
 var assetData:objects.Asset[] = [
     // Add your Assets here
     {id: "StartButton", src:"../../Assets/images/StartButton.png"},
-    {id: "StartOverButton", src:"../../Assets/images/StartOverButton.png"}
+    {id: "StartOverButton", src:"../../Assets/images/StartOverButton.png"},
+    {id: "Dice1", src:"../../Assets/images/dice1.png"},
+    {id: "Dice2", src:"../../Assets/images/dice2.png"},
+    {id: "Dice3", src:"../../Assets/images/dice3.png"},
+    {id: "Dice4", src:"../../Assets/images/dice4.png"},
+    {id: "Dice5", src:"../../Assets/images/dice5.png"},
+    {id: "Dice6", src:"../../Assets/images/dice5.png"},
+    {id: "RollBtn", src:"../../Assets/images/roll.png"}
 
 ];
 

@@ -8,6 +8,7 @@ var objects;
     // Scene Class
     var Scene = (function (_super) {
         __extends(Scene, _super);
+        //private variables
         // CONSTRUCTOR +++++++++++++++++++++++++++++
         function Scene() {
             _super.call(this);
@@ -16,12 +17,13 @@ var objects;
         // Add game objects to my scene in this method
         Scene.prototype.start = function () {
             stage.addChild(this);
+            //this._resetAll();
         };
         // update game objects in my scene
         Scene.prototype.update = function () {
         };
         return Scene;
-    }(createjs.Container));
+    })(createjs.Container);
     objects.Scene = Scene;
 })(objects || (objects = {}));
 //# sourceMappingURL=scene.js.map
