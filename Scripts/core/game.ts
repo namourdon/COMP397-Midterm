@@ -1,4 +1,6 @@
-﻿/// <reference path = "_reference.ts" />
+﻿//Nashia Amourdon
+
+/// <reference path = "_reference.ts" />
 
 // global variables
 var assets: createjs.LoadQueue;

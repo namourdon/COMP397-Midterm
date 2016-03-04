@@ -1,4 +1,5 @@
-﻿// MENU SCENE
+﻿//Nashia Amourdon
+// MENU SCENE
 module scenes {
     export class Menu extends objects.Scene {
         //PRIVATE INSTANCE VARIABLES ++++++++++++
